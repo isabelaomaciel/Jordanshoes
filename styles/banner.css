@@ -1,0 +1,40 @@
+.banner {
+  width: 100%;
+  height: 378px;
+  background: url(../assets/banner.png) no-repeat;
+  position: relative;
+  padding-left: 100px;
+  padding-top: 129px;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  height: 378px;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.6;
+  background-color: #181818;
+}
+.banner div {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.banner div h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  color: #f9f9f9;
+}
+
+.banner div p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35.31px;
+  color: #f9f9f9;
+  max-width: 460px;
+  text-align: left;
+}
