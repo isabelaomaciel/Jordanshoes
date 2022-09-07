@@ -1,0 +1,38 @@
+main {
+  padding-bottom: 74px;
+}
+
+main h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 62.78px;
+  text-align: center;
+  margin-top: 58px;
+}
+
+main p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35.31px;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+main .grid {
+  display: flex;
+  max-width: 1300px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 13px;
+  justify-content: center;
+}
+
+main .grid .produts {
+  max-width: 300px;
+  max-height: 302px;
+  height: 100%;
+  background-color: #ebe9ea;
+  padding: 76px 25px;
+  margin-bottom: 26px;
+}
